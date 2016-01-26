@@ -5,22 +5,74 @@
     //Required. Inputs the module expects.
     "inputs": [
         //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "fields",
+            "title":"Fields"
+        },
+        {
+            "id": "exclude_fields",
+            "title":"Exclude Fields"
+        },
+        {
+            "id": "count",
+            "title":"Count"
+        },
+        {
+            "id": "type",
+            "title":"Type"
+        },
+        {
+            "id": "status",
+            "title":"Status"
+        },
+        {
+            "id": "before_send_time",
+            "title":"Before Sent"
+        },
+        {
+            "id": "before_create_time",
+            "title":"Before Create"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
       //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "total_items",
+            "title":"Total Items"
+        },
+        {
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "type",
+            "title":"Type"
+        },
+        {
+            "id": "create_time",
+            "title":"Create time"
+        },
+        {
+            "id": "archive_url",
+            "title":"Archive URL"
+        },
+        {
+            "id": "status",
+            "title":"Status"
+        },
+        {
+            "id": "emails_sent",
+            "title":"Total Sent"
+        },
+        {
+            "id": "_links",
+            "title":"Links"
         }
-      */
     ],
-    "title": "Mailchimp - Get Campaigns" /* Required.A display name for the module */
+    "providers": [{
+        "name": "mailchimp "
+    }],
+    "icon": "dex-mailchimp",
+    "title": "Mailchimp Get Campaigns" /* Required.A display name for the module */
 }
